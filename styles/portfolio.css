@@ -1,10 +1,14 @@
 :root {
-  --default-font-family: ;
-  --primary-font-family: ;
+  --default-font-family: "Jost", sans-serif;
+  --primary-font-family: "Rubik", sans-serif;
+  --primary-color: #334155;
+  --headings-color: #1e293b;
 }
 
 body {
+  color: var(--primary-color);
   background: #f9f7fe;
+  font-family: var(--default-font-family);
 }
 p {
   font-weight: 300;
@@ -14,10 +18,14 @@ p {
 h1 {
   line-height: 43px;
   font-size: 36px;
+  font-family: var(--primary-font-family);
+  color: var(--headings-color);
 }
 h2 {
   font-size: 24px;
   line-height: 36px;
+  font-family: var(--primary-font-family);
+  color: var(--headings-color);
 }
 .project-description {
   padding: 80px 60px 50px;
