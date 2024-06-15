@@ -1,0 +1,48 @@
+:root {
+  --default-font-family: ;
+  --primary-font-family: ;
+}
+
+body {
+  background: #f9f7fe;
+}
+p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+}
+h1 {
+  line-height: 43px;
+  font-size: 36px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.project-description {
+  padding: 80px 60px 50px;
+}
+.header {
+  padding: 100px 20px 40px;
+}
+.header-content {
+  margin-left: 40px;
+}
+.header-content h2 {
+  margin: 30px 0 10px;
+}
+.projects {
+  margin-left: 120px;
+}
+.btn-branding {
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  background: #6c63ff;
+}
+.btn-branding:hover {
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+}
