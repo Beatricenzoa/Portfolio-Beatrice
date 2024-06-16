@@ -1,6 +1,6 @@
 :root {
-  --default-font-family: "Jost", sans-serif;
-  --primary-font-family: "Rubik", sans-serif;
+  --default-font-family: "Rubik", sans-serif;
+  --primary-font-family: "Jost", sans-serif;
   --primary-color: #334155;
   --headings-color: #1e293b;
 }
@@ -15,17 +15,21 @@ p {
   font-size: 16px;
   line-height: 28px;
 }
+h1,
+h2,
+h3,
+h6 {
+  font-weight: 500;
+  font-family: var(--primary-font-family);
+  color: var(--headings-color);
+}
 h1 {
   line-height: 43px;
   font-size: 36px;
-  font-family: var(--primary-font-family);
-  color: var(--headings-color);
 }
 h2 {
   font-size: 24px;
   line-height: 36px;
-  font-family: var(--primary-font-family);
-  color: var(--headings-color);
 }
 .project-description {
   padding: 80px 60px 50px;
@@ -39,11 +43,14 @@ h2 {
 .header-content h2 {
   margin: 30px 0 10px;
 }
+.header-content a {
+  padding-right: 30px;
+}
 .projects {
   margin-left: 120px;
 }
 .btn-branding {
-  padding: 15px 30px;
+  padding: 15px 25px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -53,4 +60,31 @@ h2 {
 .btn-branding:hover {
   color: #6c63ff;
   border: 1px solid #6c63ff;
+}
+.form {
+  max-width: 50%;
+  display: block;
+  margin: 56px auto;
+}
+label {
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+span {
+  color: red;
+}
+#input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #bcbfc2;
+  border-radius: 8px;
+}
+input .btn-branding {
+  width: 25%;
+}
+textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border-color: #bcbfc2;
 }
