@@ -29,16 +29,29 @@
     ></script>
   </head>
   <body>
-    <div class="header container d-flex">
+    <div class="header container">
       <div>
         <img src="images/beatrice.png" class="img-fluid" alt="" />
       </div>
       <div class="header-content">
         <h2>Beatrice Mutuku</h2>
-        <p>
-          <a href="index.html">Projects</a><a href="about.html">About</a
-          ><a href="work.html">Work</a><a href="contact.html">Contact</a>
-        </p>
+        <nav class="navbar navbar-expand-sm">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        </div>
       </div>
     </div>
     <div class="projects">
@@ -48,14 +61,14 @@
     <div>
       <div class="container mt-5">
         <div class="row mb-5">
-          <div class="col">
+          <div class="col-lg-6">
             <img
               src="images/weather.png"
               alt="weather project"
               class="img-fluid shadow rounded"
             />
           </div>
-          <div class="col">
+          <div class="col-lg-6">
             <div class="project-description">
               <h2 class="mb-3">Weather Project</h2>
               <p class="mb-3">
@@ -70,8 +83,15 @@
             </div>
           </div>
         </div>
-        <div class="row mb-5">
-          <div class="col">
+        <div class="row flex-row-reverse mb-5">
+          <div class="col-lg-6">
+            <img
+              src="images/german-shepherd.png"
+              alt="landing page project"
+              class="img-fluid shadow rounded"
+            />
+          </div>
+          <div class="col-lg-6">
             <div class="project-description">
               <h2 class="mb-3">Landing Page</h2>
               <p class="mb-3">
@@ -85,13 +105,6 @@
               </p>
               <a href="#" class="btn btn-branding">Landing Page</a>
             </div>
-          </div>
-          <div class="col">
-            <img
-              src="images/german-shepherd.png"
-              alt="landing page project"
-              class="img-fluid shadow rounded"
-            />
           </div>
         </div>
       </div>

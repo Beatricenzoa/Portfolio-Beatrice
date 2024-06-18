@@ -29,31 +29,73 @@
     ></script>
   </head>
   <body>
-    <div class="header container d-flex">
+    <div class="header container">
       <div>
         <img src="images/beatrice.png" class="img-fluid" alt="" />
       </div>
       <div class="header-content">
         <h2>Beatrice Mutuku</h2>
-        <p>
-          <a href="index.html">Projects</a><a href="about.html">About</a
-          ><a href="work.html">Work</a><a href="contact.html">Contact</a>
-        </p>
+        <nav class="navbar navbar-expand-sm">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
-    <div class="text-center">
-      <h1>Hello, I'm Beatrice</h1>
-      <h2>A front-end developer from Nairobi, Kenya</h2>
-      <p>
-        I am a passionate and aspiring junior front-end developer skilled in
-        HTML, CSS, Bootstrap, JavaScript and GitHub. I am eager to leverage my
-        skills and creativity to build responsive and visually appealing web
-        applications. Enthusiastic about learning new technologies and
-        collaborating with teams to deliver innovative solutions. I am dedicated
-        to continuous growth and excited to contribute to dynamic projects that
-        make a positive impact. I seek to leverage my technical education and
-        problem-solving abilities in a software developer role.
-      </p>
+    <div class="about">
+      <div class="introduction text-center">
+        <h1>Hello, I'm Beatrice</h1>
+        <h2>A front-end developer from Nairobi, Kenya</h2>
+        <p>
+          I am a passionate and aspiring junior front-end developer skilled in
+          HTML, CSS, Bootstrap, JavaScript and GitHub. I am eager to leverage my
+          skills and creativity to build responsive and visually appealing web
+          applications. Enthusiastic about learning new technologies and
+          collaborating with teams to deliver innovative solutions. I am
+          dedicated to continuous growth and excited to contribute to dynamic
+          projects that make a positive impact. I seek to leverage my technical
+          education and problem-solving abilities in a software developer role.
+        </p>
+      </div>
+
+      <div class="skills">
+        <h3 class="text-center mb-5">What I can do</h3>
+        <img
+          src="images/coding-icon.png"
+          alt=""
+          class="img-fluid code-img d-none d-lg-block"
+        />
+        <h4>Implement User Interfaces</h4>
+        <p>
+          I have the skills to translate designs (usually provided by UI/UX
+          designers) into functional user interfaces using web technologies such
+          as HTML, CSS, and JavaScript.
+        </p>
+      </div>
+      <div class="skills">
+        <img
+          src="images/screen-sizes.jpg"
+          alt=""
+          class="img-fluid screens-img rounded-circle d-none d-lg-block"
+        />
+        <h4>Create Responsive Designs</h4>
+        <p>
+          With the help of Bootstrap, CSS media queries, viewport units, and
+          responsive design principles to create fluid and usable layouts across
+          desktops, tablets, and mobile devices, I can make responsive websites.
+        </p>
+      </div>
     </div>
   </body>
 </html>

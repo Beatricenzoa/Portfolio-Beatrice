@@ -29,16 +29,28 @@
     ></script>
   </head>
   <body>
-    <div class="header container d-flex">
+    <div class="header container">
       <div>
         <img src="images/beatrice.png" class="img-fluid" alt="" />
       </div>
       <div class="header-content">
         <h2>Beatrice Mutuku</h2>
-        <p>
-          <a href="index.html">Projects</a><a href="about.html">About</a
-          ><a href="work.html">Work</a><a href="contact.html">Contact</a>
-        </p>
+        <nav class="navbar navbar-expand-sm">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
     <h6 class="text-center mb-5">
@@ -47,12 +59,12 @@
     </h6>
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-md-6">
           <img src="images/weather.png" class="img-fluid mt-3 rounded" />
           <h3 class="text-center mt-4">Weather Project</h3>
           <p class="text-center">Built with HTML, CSS and JavaScript</p>
         </div>
-        <div class="col">
+        <div class="col-md-6 landing-page">
           <img src="images/german-shepherd.png" class="img-fluid rounded" />
           <h3 class="text-center mt-4">Landing Page</h3>
           <p class="text-center">Built with HTML and CSS</p>
