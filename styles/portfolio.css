@@ -163,6 +163,11 @@ textarea {
     margin-top: 50px;
   }
 }
+@media (min-width: 640px) and (max-width: 767px) {
+  .landing-page {
+    margin-top: 50px;
+  }
+}
 
 @media (max-width: 991px) {
   .skills h4,
