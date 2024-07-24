@@ -33,8 +33,11 @@ h2 {
   font-size: 24px;
   line-height: 36px;
 }
-.project-description {
-  padding: 80px 60px 50px;
+/* header */
+.navbar-nav .nav-link {
+  color: #1e2761;
+  line-height: 36px;
+  font-weight: 500;
 }
 .header {
   display: flex;
@@ -47,6 +50,10 @@ h2 {
   margin: 30px 0 10px;
 }
 
+/* projects page*/
+.project-description {
+  padding: 80px 60px 50px;
+}
 .projects {
   padding-left: 15px;
 }
@@ -63,18 +70,43 @@ h2 {
   color: #6c63ff;
   border: 1px solid #6c63ff;
 }
+
+/* footer */
 footer .social-links a {
   margin: 0 30px;
-  font-size: 30px;
 }
-.form {
-  max-width: 50%;
-  display: block;
-  margin: 56px auto;
+
+/* contact page */
+form {
+  width: 60%;
+  margin: 0 auto;
 }
+label {
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+.sender-details {
+  display: flex;
+  justify-content: space-between;
+}
+form input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #bcbfc2;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border-color: #bcbfc2;
+}
+
+/* about page */
 .introduction {
   margin: auto;
-  width: 85%;
+  width: 95%;
 }
 .introduction h1 {
   font-size: 24px;
@@ -83,53 +115,32 @@ footer .social-links a {
 .skills p {
   line-height: 2;
 }
+
 .about h1,
-.about h2,
 .about h3,
 .about h4,
+.skills-set h3,
+.icon:hover,
 footer .social-links a:hover,
 .navbar-nav a.nav-link.active,
 .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
 }
-.navbar-nav .nav-link {
-  color: #1e2761;
-  line-height: 36px;
-  font-weight: 500;
-}
+
 .skills {
-  width: 50%;
+  width: 70%;
   margin: 80px auto;
   text-align: left;
 }
 .code-img {
-  margin-right: 40px;
-  width: 25%;
+  margin-right: 50px;
+  width: 18%;
   float: left;
 }
 .screens-img {
-  margin-left: 40px;
+  margin-left: 50px;
   float: right;
   width: 25%;
-}
-label {
-  font-weight: 500;
-  padding-bottom: 12px;
-}
-#input {
-  width: 100%;
-  padding: 8px 12px;
-  border: 1px solid #bcbfc2;
-  border-radius: 8px;
-}
-input .btn-branding {
-  width: 25%;
-}
-textarea {
-  width: 100%;
-  padding: 8px 12px;
-  border-radius: 8px;
-  border-color: #bcbfc2;
 }
 
 @media (max-width: 576px) {
@@ -159,9 +170,7 @@ textarea {
   h1.work-heading {
     font-size: 14px;
   }
-  .sender-details {
-    display: block;
-  }
+
   .landing-page {
     margin-top: 50px;
   }
@@ -183,5 +192,8 @@ textarea {
   .project-description {
     padding: 80px 0 50px;
     text-align: center;
+  }
+  .sender-details {
+    display: block;
   }
 }
